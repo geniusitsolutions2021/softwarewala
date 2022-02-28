@@ -1,5 +1,0 @@
-Options +FollowSymLinks
-RewriteEngine on
-RewriteCond %{HTTP_HOST} .
-RewriteCond %{HTTP_HOST} !^softwareswala.in
-RewriteRule (.*) http://softwareswala.in/$1 [R=301,L]
